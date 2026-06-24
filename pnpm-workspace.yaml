@@ -1,0 +1,7 @@
+# only install packages that are at least 24 hours old
+minimumReleaseAge: 1440
+strictDepBuilds: true
+allowBuilds:
+  '@parcel/watcher': false
+  spawn-sync: false
+  unrs-resolver: false
